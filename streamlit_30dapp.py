@@ -9,3 +9,10 @@ if st.button('Say Hello'):
 
 else: 
 	st.write('Goodbye')
+
+## add a sidebar 
+
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
